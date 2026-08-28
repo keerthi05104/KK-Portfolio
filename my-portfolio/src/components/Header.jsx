@@ -31,10 +31,6 @@ function Header() {
             About
           </a>
 
-          <a href="#skills">
-            Skills
-          </a>
-
           <a href="#contact">
             Contact
           </a>
