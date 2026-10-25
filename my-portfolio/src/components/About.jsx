@@ -1,3 +1,4 @@
+ import { Link } from "react-router-dom"; 
 function About() {
   return (
     <section id="about" className="section">
@@ -89,6 +90,16 @@ function About() {
           </div>
 
         </aside>
+
+      </div>
+      <div className="about-projects-cta">
+        <p>Interested in what I've been building?</p>
+
+      
+<Link to="/projects" className="about-projects-link">
+  Explore My Projects
+  <span aria-hidden="true">↗</span>
+</Link>
 
       </div>
 

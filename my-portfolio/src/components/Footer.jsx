@@ -6,7 +6,6 @@ function Footer() {
           <strong>Your Name</strong>
           <span>Keerthi K</span>
         </div>
-
         <p>
           © 2026 Keerthi K
         </p>

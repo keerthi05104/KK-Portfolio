@@ -831,3 +831,61 @@ a {
 .back-top:hover {
   color: #ffffff;
 }}
+
+
+/* Premium Explore My Projects button */
+.about-projects-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  padding: 14px 22px;
+  margin-top: 20px;
+
+  color: #171717;
+  background: #f5f3ee;
+  border: 1px solid #f5f3ee;
+  border-radius: 8px;
+
+  font-size: 0.9rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.about-projects-link span {
+  display: inline-block;
+  font-size: 1.1rem;
+  transition: transform 0.25s ease;
+}
+
+.about-projects-link:hover {
+  color: #ffffff;
+  background: #292929;
+  border-color: #777777;
+  transform: translateY(-2px);
+}
+
+.about-projects-link:hover span {
+  transform: translate(3px, -3px);
+}
+
+.about-projects-link:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-projects-link,
+  .about-projects-link span {
+    transition: none;
+  }
+}
